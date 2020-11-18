@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String [] args) 
+  {
+    
+    Scanner scan = new Scanner(System.in);
+
+    String [] seats = {"Seat 1", "Seat 2", "Seat 3", "Seat 4", "Seat 5", "Seat 6", "Seat 7", "Seat 8", "Seat 9", "Seat 10", "Seat 11", "Seat 12", "Seat 13", "Seat 14", "Seat 15"};
+
+
+    String [] names = {"Jessica", "Nick", "Rick", "Morty", "Alexis", "Julian", "Adrian", "Laura", "Payton", "Sofie", "Brock", "Tyler", "Bobby", "Valerie", "Philip"};
+
+    for (int i = 0; i < names.length; i++) 
+    {
+      {
+        System.out.println( names[i] );
+      }
+    }
+    System.out.println("Do you want to see the class list?");
+        String name = scan.nextLine();
+
+    int a = 0;
+
+    while(a < 1) {
+
+      System.out.printf("Please find your name on the class list: Jessica: Seat 1, Nick: Seat 2, Rick: Seat 3, Morty: Seat 4, Alexis: Seat 5, Julian: Seat 6, Adrian: Seat 7, Laura: Seat 8, Payton: Seat 9, Sofie: Seat 10, Brock: Seat 11, Tyler: Seat 12, Bobby: Seat 13, Valerie: Seat 14, Philip: Seat 15.   " + a);
+      a++;
+    }
+  }
+
+}
